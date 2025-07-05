@@ -1,12 +1,6 @@
-﻿# Housing Regression MLOps Assignment
-# MLOps Housing Regression Assignment - Final Report
+**﻿# Housing Regression MLOps Assignment**
 
-## Student Information
-- **Name:** Chinmaye A
-- **Assignment:** MLOps Pipeline for Housing Price Prediction
-- **Date:** July 5, 2025
-
-## Executive Summary
+## Summary
 This project implements a complete MLOps pipeline for predicting house prices using the Boston Housing dataset. The pipeline includes automated model training, hyperparameter tuning, performance comparison, and CI/CD automation using GitHub Actions.
 
 ## 1. Problem Statement & Objectives
@@ -25,7 +19,7 @@ Design, implement, and automate a complete machine learning workflow to predict 
 ## 2. Dataset Description
 
 ### Boston Housing Dataset
-- **Source:** http://lib.stat.cmu.edu/datasets/boston
+- **Source:** https://scikit-learn.org/1.0/modules/generated/sklearn.datasets.load_boston.html
 - **Total Samples:** 506
 - **Features:** 13 input features + 1 target variable
 - **Target Variable:** MEDV (Median Home Value in $1000s)
