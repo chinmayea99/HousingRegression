@@ -259,7 +259,7 @@ This project demonstrates proficiency in MLOps practices including automated pip
 ## Appendix
 
 ### A. Repository Links
-- **GitHub Repository:** https://github.com/YOUR_USERNAME/HousingRegression
+- **GitHub Repository:** (https://github.com/chinmayea99/HousingRegression/tree/main)
 - **Main Branch:** Contains final merged code
 - **Reg Branch:** Basic regression implementation
 - **Hyper Branch:** Hyperparameter tuning implementation
