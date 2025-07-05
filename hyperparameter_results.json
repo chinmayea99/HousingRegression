@@ -1,0 +1,33 @@
+{
+  "model_performance": {
+    "Linear Regression": {
+      "MSE": 24.291119474973513,
+      "R2": 0.668759493535632
+    },
+    "Random Forest": {
+      "MSE": 7.912745333333333,
+      "R2": 0.8920995891343227
+    },
+    "SVR": {
+      "MSE": 12.7381920196588,
+      "R2": 0.8262984470361981
+    }
+  },
+  "best_parameters": {
+    "Linear Regression": {
+      "copy_X": true,
+      "fit_intercept": true,
+      "positive": false
+    },
+    "Random Forest": {
+      "max_depth": null,
+      "min_samples_split": 2,
+      "n_estimators": 100
+    },
+    "SVR": {
+      "C": 10,
+      "gamma": "auto",
+      "kernel": "rbf"
+    }
+  }
+}
