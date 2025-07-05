@@ -27,8 +27,20 @@ jobs:
       run: |
         python regression.py
     
-    - name: Upload results
+    - name: Run hyperparameter tuning
+      if: github.ref == 'refs/heads/hyper' || github.ref == 'refs/heads/main'
+      run: |
+        python hyperparameter_tuning.py
+    
+    - name: Upload regression results
       uses: actions/upload-artifact@v3
       with:
         name: regression-results
         path: regression_results.json
+    
+    - name: Upload hyperparameter results
+      if: github.ref == 'refs/heads/hyper' || github.ref == 'refs/heads/main'
+      uses: actions/upload-artifact@v3
+      with:
+        name: hyperparameter-results
+        path: hyperparameter_results.json

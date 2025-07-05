@@ -72,15 +72,14 @@ def evaluate_models(models, X_test, y_test):
     
     return results
 
-
 def train_models_with_hyperparameters(X_train, y_train):
     """Train models with hyperparameter tuning"""
     
-    # Define hyperparameter grids
+    # Define hyperparameter grids (fixed for newer scikit-learn)
     param_grids = {
         'Linear Regression': {
             'fit_intercept': [True, False],
-            'normalize': [True, False],
+            'positive': [True, False],
             'copy_X': [True, False]
         },
         'Random Forest': {
